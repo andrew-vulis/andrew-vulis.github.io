@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Locate Yourself</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="Author" />
+		<link rel="icon" type="image/png" href="favicon-32x32.png">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Quantico:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+
+		<style>
+
+			html {
+				height: 100%;
+				scroll-behavior: smooth;
+				border: 1px solid;
+			}
+
+			h1 {text-align: center; font-size: 50px;}
+			h1 {border-style: double; width: 1200px; color: #A64F3C;}
+			h2 {text-align: center; font-size: 18px;}
+			p {text-align: center;}
+			h3 {text-align: center; font-size: 35px;}
+
+
+			.center {
+				display:block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 50%;
+			}
+
+			.sidenav {
+				width: 130px;
+				position: fixed;
+				z-index: 1;
+				top: 20px;
+				left: 10px;
+				background: #2F4F4F;
+				overflow-x: hidden;
+				padding: 8px 0;
+				);
+			}
+
+			.sidenav a {
+				padding: 6px 8px 6px 16px;
+				text-decoration: none;
+				font-size: 25px;
+				color: gray;
+				display: block;
+			}
+
+			.footer {
+				position: static;
+				left: 0;
+				bottom: 0;
+				width: 100%;
+				background-color: #FF8C00;
+				color: white;
+				text-align:center;
+			}
+
+			nav {
+				position: relative;
+				left: 0;
+				top: 0px;
+				height: 3em;
+				width: 100%;
+				color: #white;
+				margin: 0;
+				margin-top: -10px;
+				padding: 0 0 10px 0;
+				z-index: 10;
+			}
+
+			nav a:hover {
+				color: gray;
+			}
+
+			nav ul {
+				list-style-type: none;
+			}
+
+			nav ul li {
+				display: inline;
+				margin-top: 0;
+				padding-top: 0;
+				padding-left: 30px;
+				padding-right: 20px;
+				border-right: 1px dotted #999;
+			}
+
+			p.rounded {border-style: rounded; }
+
+		</style>
+	</head>
+
+
+	<body style="background-color: #2f4f4f;">
+
+		<!--navigation top bar-->
+		<ul type="square">
+			<nav id="nav">
+			<ul type ="square">
+				<li><a href="ny-maps.html" style="font-family: 'Quantico', sans-serif;";>HOME</a></li>
+				<li><a href="#about" style="font-family: 'Quantico', sans-serif;">ABOUT</a></li>
+				<li><a href="#contact" style="font-family: 'Quantico', sans-serif;">CONTACT</a></li>
+			</ul>
+
+		<!--<h1 font-family: 'IBM Plex Sans', sans-serif;>where do you belong in new york city?</h1>-->
+		<br>
+		<img src="nyc.gif" class="center">
+		<h1 style="font-family: 'Quantico', sans-serif; text-align: center">Your Choice, No One Else's </h1>
+		<h2 style= "font-family: 'Alegreya Sans SC', sans-serif; color: #FFFFFF;"> When it comes to finding an ideal place to live in New York City, <br> there lies many factors that help you decide where you'll finally stay. <br> Do you like being in a quiet area or you don't mind the hustle of urban life? <br> How does COVID affect your decision? Do you mind living in a hotspot? Or do you want to be as far away as possible from everyone? <br> What's your budget and lifestyle of those around you?  <br>
+	    These maps are here to make your search easier by breaking it down into several different <br> categories and giving you a visual on what's right for you. 
+	   
+
+	    <h3 style="font-family: 'Vast Shadow', cursive; color: #000000; text-align: center"> YOUR CHOICE OF LIVING BASED ON: </h3>
+            
+            <h1 style='font-family: "Vast Shadow", cursive; color: #000000; text-align: center'> Noise Level
+            <iframe src="noiseData311.html" height="400" width="400" title="Noise Data" class = 'center'></iframe>
+                
+            <h1 style='font-family: "Vast Shadow", cursive; color: #000000; text-align: center'> COVID Cases
+            <iframe src="covid.html" height="500" width="500" title="Noise Data" class = 'center'></iframe>
+                
+            <h1 style='font-family: "Vast Shadow", cursive; color: #000000; text-align: center'> Median Income
+            <iframe src="income.html" height="500" width="500" title="Noise Data" class = 'center'></iframe>
+
+                
+
+
+    
+
+
+
+     <div class="footer">
+     	<p style="font-family: 'Arvo', serif; color: white; ">CURATED BY: </p>
+     	<p style="color: white;">
+        <p style="font-size:15px">
+
+     	   ITZEL GARCIA
+     	   <br>
+     	   SHAHJADEE SHANJEEDA
+     	   <br>
+     	   KENIA TINEO
+     	   <br>
+     	   ANDREW VULIS</p>
+     </div>
+
+
+
+
+
+	</body>
+</html>
